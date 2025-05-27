@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 나만의 유튜브 사이트 만들기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이 프로젝트는 React 프레임워크와 YouTube Data API를 활용하여,
+나만의 간단한 유튜브 영상 사이트를 만드는 것을 목표로 합니다.
 
-## Available Scripts
+해당 프로젝트를 통해 다음과 같은 내용을 학습하였습니다 :
 
-In the project directory, you can run:
+- React의 기본 개념과 컴포넌트 기반 구조 이해
+- 상태(State)와 props를 활용한 컴포넌트 간 데이터 흐름 관리
+- YouTube Data API를 사용하여 외부 영상 데이터를 가져오는 방법
+- API 응답 데이터를 구조화하고 사용자에게 의미 있는 정보로 보여주는 방식
+- 실제 데이터를 기반으로 동적인 UI 구현
 
-### `npm start`
+본 프로젝트는 Webstoryboy 유튜브 강의 시리즈를 참고하여 진행하였습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 완성작 보기
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+미리보기 :
 
-### `npm test`
+## 사용스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- node.js를 설치하고 사용
+- react를 사용하여 사이트를 완성
+- youTube Api를 이용하여 데이터를 가져오기
+- rapidapi를 이용하여 데이터를 가져오기
+- netlify를 통해 사이트를 배포
+- firebase를 통해 사이트를 배포
+- vercel를 통해 사이트를 배포
+- git을 사용하여 파일을 관리
 
-### `npm run build`
+## 프로젝트 실행
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- react를 설치 `npx create-react-app 타이틀`
+- react-router-dom을 설치 `npm install react-router-dom`
+- axios를 설치 `npm install axios`
+- react-icons을 설치 `npm install react-icons`
+- react-player를 설치 `npm install react-player`
+- sass를 설치 `npm install sass`
+- react-helmet-async를 설치 `npm install react-helmet-async`
+- swiper를 설치 `npm install swiper`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+참고 : https://webstoryboy.co.kr/1965 [WEBSTORYBOY:티스토리]
